@@ -127,7 +127,7 @@ export default function HomeScreen() {
               style={styles.input}
             />
             <Pressable onPress={addOrEditContact} style={{ marginBottom: 8 }}>
-              <Text style={{ color: "#e30613", textAlign: "center" }}>
+              <Text style={{ color: "#f48fb1", textAlign: "center" }}>
                 {editIndex === null ? "Adicionar" : "Salvar alterações"}
               </Text>
             </Pressable>
@@ -147,11 +147,12 @@ const styles = StyleSheet.create({
   container: {
     flex: 1,
     padding: 16,
+    backgroundColor: "#fff0f5",
   },
   addButton: {
     marginBottom: 16,
     alignSelf: "center",
-    backgroundColor: "#e30613",
+    backgroundColor: "#f48fb1",
     padding: 12,
     borderRadius: 8,
   },
@@ -164,16 +165,17 @@ const styles = StyleSheet.create({
     alignItems: "center",
     marginBottom: 10,
     padding: 12,
-    backgroundColor: "#f1f1f1",
+    backgroundColor: "#ffe4e1",
     borderRadius: 6,
   },
   contactItem: {
     fontSize: 16,
     fontWeight: "bold",
+    color: "#880e4f",
   },
   contactPhone: {
     fontSize: 14,
-    color: "#555",
+    color: "#ad1457",
   },
   contactButtons: {
     flexDirection: "row",
@@ -185,10 +187,10 @@ const styles = StyleSheet.create({
     borderRadius: 4,
   },
   editButton: {
-    backgroundColor: "#ffca28",
+    backgroundColor: "#ce93d8",
   },
   deleteButton: {
-    backgroundColor: "#f44336",
+    backgroundColor: "#f06292",
   },
   buttonText: {
     color: "#fff",
@@ -197,7 +199,7 @@ const styles = StyleSheet.create({
   emptyText: {
     textAlign: "center",
     marginTop: 32,
-    color: "#666",
+    color: "#ba68c8",
   },
   modalBackdrop: {
     flex: 1,
@@ -207,15 +209,16 @@ const styles = StyleSheet.create({
   },
   modalContent: {
     width: "80%",
-    backgroundColor: "#fff",
+    backgroundColor: "#fffafc",
     padding: 20,
     borderRadius: 10,
   },
   input: {
     borderWidth: 1,
-    borderColor: "#ccc",
+    borderColor: "#f8bbd0",
     padding: 8,
     borderRadius: 6,
     marginBottom: 12,
+    backgroundColor: "#fff0f5",
   },
 });

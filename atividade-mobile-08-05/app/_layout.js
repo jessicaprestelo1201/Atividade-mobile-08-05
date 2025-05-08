@@ -10,24 +10,24 @@ export default function Layout() {
   return (
     <Stack
       screenOptions={{
-        headerStyle: { backgroundColor: "#e30613" },
+        headerStyle: { backgroundColor: "#f48fb1" },
         headerTintColor: "#fff",
       }}
     >
       <Stack.Screen
         name="index"
         options={{
-          title: "📇 Contatos",
+          title: "💐 Contatos",
           headerRight: () => (
             <Pressable onPress={() => router.push("/settings")} style={styles.gearButton}>
-              <Text style={styles.gearText}>⚙️</Text>
+              <Text style={styles.gearText}>❤️</Text>
             </Pressable>
           ),
         }}
       />
       <Stack.Screen
         name="settings"
-        options={{ title: "⚙️ Configurações" }}
+        options={{ title: "❤️ Configurações" }}
       />
     </Stack>
   );
