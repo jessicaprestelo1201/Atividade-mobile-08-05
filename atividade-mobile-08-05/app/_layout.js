@@ -1,4 +1,3 @@
-// app/_layout.js
 import React from "react";
 import { Stack } from "expo-router";
 import { Pressable, Text, StyleSheet } from "react-native";
