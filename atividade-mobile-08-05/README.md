@@ -1,20 +1,32 @@
-# Expo Router Example
+📱 Lista de Contatos com React Native Paper
+Este aplicativo foi desenvolvido como uma atividade prática para gerenciamento de contatos utilizando React Native com os componentes do React Native Paper.
 
-Use [`expo-router`](https://docs.expo.dev/router/introduction/) to build native navigation using files in the `app/` directory.
+✨ Funcionalidades
+📋 Listagem de contatos com nome, telefone e categoria.
 
-## 🚀 How to use
+➕ Adicionar novo contato com formulário via Dialog.
 
-```sh
-npx create-expo-app -e with-router
-```
+✏️ Editar contato existente.
 
-## Deploy
+🗑️ Excluir contato com confirmação.
 
-Deploy on all platforms with Expo Application Services (EAS).
+🔤 Avatar com a inicial do nome.
 
-- Deploy the website: `npx eas-cli deploy` — [Learn more](https://docs.expo.dev/eas/hosting/get-started/)
-- Deploy on iOS and Android using: `npx eas-cli build` — [Learn more](https://expo.dev/eas)
+⬆️ Design simples e funcional com uso dos principais componentes do React Native Paper.
 
-## 📝 Notes
+📦 Tecnologias Utilizadas
+React Native
 
-- [Expo Router: Docs](https://docs.expo.dev/router/introduction/)
+React Native Paper
+
+Expo
+
+Ícones: @expo/vector-icons (AntDesign e Entypo)
+
+📸 Componentes Usados
+List.Item – Para exibir os contatos.
+
+FAB – Botão flutuante para adicionar novos contatos.
+
+Dialog – Usado para formulários de adicionar/editar e confirmar exclusão.
+
